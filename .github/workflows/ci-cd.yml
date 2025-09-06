@@ -40,4 +40,4 @@ jobs:
         uses: render-oss/render-action@v1
         with:
           apiKey: ${{ secrets.RENDER_API_KEY }}
-          serviceId: ${{ secrets.RENDER_SERVICE_ID }}
+          serviceId: ${{ secrets.RENDER_SERVICE_ID_POC_RENDER }}
